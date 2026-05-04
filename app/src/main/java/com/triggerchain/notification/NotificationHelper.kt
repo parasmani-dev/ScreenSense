@@ -9,8 +9,8 @@ import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import com.triggerchain.MainActivity
-import com.triggerchain.data.models.TriggerEvent
-import com.triggerchain.data.models.SleepThreatLevel
+import com.triggerchain.engine.TriggerEvent
+import com.triggerchain.scoring.SleepThreatLevel
 
 // ─── Channel IDs ──────────────────────────────────────────────────────────────
 object Channels {
@@ -51,7 +51,7 @@ fun createNotificationChannels(ctx: Context) {
             NotificationManager.IMPORTANCE_HIGH
         ).apply {
             description       = "Alerts when sleep threat score is elevated"
-            enableVibration   = true
+            enableVibration(true)
             enableLights(true)
             lightColor        = 0xFFFF5252.toInt()
         },
@@ -61,7 +61,7 @@ fun createNotificationChannels(ctx: Context) {
             NotificationManager.IMPORTANCE_HIGH
         ).apply {
             description = "Notifies when a behavioral chain is detected"
-            enableVibration = true
+            enableVibration(true)
         },
         NotificationChannel(
             Channels.WELLNESS_NUDGES,

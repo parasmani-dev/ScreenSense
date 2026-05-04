@@ -16,8 +16,8 @@ import androidx.compose.ui.unit.*
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.triggerchain.data.models.LoopFingerprint
-import com.triggerchain.data.models.SleepThreatLevel
+import com.triggerchain.data.model.LoopFingerprint
+import com.triggerchain.scoring.SleepThreatLevel
 import com.triggerchain.engine.TriggerEngine
 import com.triggerchain.ui.components.*
 import com.triggerchain.ui.theme.*

@@ -27,7 +27,7 @@ enum class AppEventType { FOREGROUND, BACKGROUND }
 
 enum class AgeGroup { TEEN, YOUNG_ADULT, ADULT, SENIOR }
 
-enum class Profession { STUDENT, KNOWLEDGE_WORKER, CREATIVE, HEALTHCARE, OTHER }
+enum class Profession { STUDENT, EMPLOYED, FREELANCER, OTHER }
 
 // ─────────────────────────────────────────
 //  ENTITIES

@@ -22,7 +22,7 @@ import androidx.compose.ui.unit.*
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.triggerchain.data.models.*
+import com.triggerchain.data.model.*
 import com.triggerchain.engine.TriggerEngine
 import com.triggerchain.ui.components.*
 import com.triggerchain.ui.theme.*
@@ -220,7 +220,7 @@ private fun ProfileScreen(vm: OnboardingViewModel) {
         SectionLabel("Usual Bedtime")
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             NumberPickerCard("Hour", vm.sleepHour, 0, 23, { vm.sleepHour = it }, Modifier.weight(1f))
-            NumberPickerCard("Min",  vm.sleepMinute, 0, 55, step = 5, onChange = { vm.sleepMinute = it }, Modifier.weight(1f))
+            NumberPickerCard("Min",  vm.sleepMinute, 0, 55, onChange = { vm.sleepMinute = it }, modifier = Modifier.weight(1f), step = 5)
         }
 
         Spacer(Modifier.height(8.dp))

@@ -12,7 +12,7 @@ import androidx.compose.ui.unit.*
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.triggerchain.data.models.*
+import com.triggerchain.data.model.*
 import com.triggerchain.engine.TriggerEngine
 import com.triggerchain.ui.components.*
 import com.triggerchain.ui.theme.*
