@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ScreenSense</string>
+    <string name="accessibility_service_label">ScreenSense Engine</string>
+    <string name="accessibility_service_description">Monitors app usage to detect behavioural loops.</string>
+</resources>
