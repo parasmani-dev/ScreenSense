@@ -142,9 +142,11 @@ Enter profession (`Student` / `Professional`) and target sleep time → calibrat
 
 ## 👥 Team
 
-| Role | Focus |
-|---|---|
-| Lead Systems Architect | Core engine & algorithm design |
-| Frontend & Visualization Lead | UI/UX & data representation |
-| Integration Specialist | API hooking & data pipeline |
-| Product & QA Lead | Feature logic & wellness validation |
+## 👥 Team
+
+| Member | GitHub |
+|--------|--------|
+| Nimish Sharma | (https://github.com/Nimish-Sharma-dev) |
+| Parasmani Kushwaha | (https://github.com/parasmani-dev) |
+| Manaswi Raj Dubey | ](https://github.com/manaswiraj) |
+| Divyansh Singh | (https://github.com/Divyansh-Singh-1) |
